@@ -45,39 +45,31 @@ const INFO_ITEMS = [
   {
     icon: MapPin,
     label: "Location",
-    value: "123 Tech Park, Bangalore, Karnataka, India — 560001",
+    value: "Jyothy Boys Hostel, Tataguni, Off. Kanakapura Road, Bangalore 560062",
   },
-  { icon: Mail, label: "Email", value: "info@arukientechnologies.com" },
-  { icon: Phone, label: "Phone", value: "+91 98765 43210" },
+  { icon: Mail, label: "Email", value: "arukien418@gmail.com" },
+  { icon: Phone, label: "Phone", value: "+91 8050211095" },
   { icon: Clock, label: "Hours", value: "Mon–Fri: 9:00 AM – 6:00 PM IST" },
 ];
 
 const SOCIALS = [
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Linkedin, href: "https://www.linkedin.com/company/arukien-technologies/", label: "LinkedIn" },
+  { icon: Instagram, href: "https://www.instagram.com/arukien_technologies?igsh=NDRvYXR5andqdTgx", label: "Instagram" },
 ];
 
 const QUICK_CARDS = [
   {
     icon: ShoppingBag,
     heading: "Sales Inquiry",
-    email: "sales@arukientechnologies.com",
+    email: "arunanagendrappa27@gmail.com",
     sub: "Interested in our services?",
   },
   {
     icon: Headset,
     heading: "Technical Support",
-    email: "support@arukientechnologies.com",
+    email: "arunanagendrappa27@gmail.com",
     sub: "Need help with an ongoing project?",
-  },
-  {
-    icon: Handshake,
-    heading: "Partnership",
-    email: "partners@arukientechnologies.com",
-    sub: "Explore collaboration opportunities",
-  },
+  }
 ];
 
 // ---------- Sub-components ----------
