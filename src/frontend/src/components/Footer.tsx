@@ -128,7 +128,7 @@ export function Footer() {
             rel="noreferrer"
             className="hover:opacity-80 transition"
           >
-            Powered by Caffeine AI
+            
           </a>
         </div>
       </div>
