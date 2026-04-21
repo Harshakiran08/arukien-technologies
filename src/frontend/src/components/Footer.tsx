@@ -4,10 +4,10 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 
 const FOOTER_LINKS = {
   Solutions: [
-    { label: "AI Implementation", to: "/services" },
-    { label: "Cloud Infrastructure", to: "/services" },
-    { label: "Data Analytics", to: "/services" },
-    { label: "DevSecOps", to: "/services" },
+    { label: "AI Automation", to: "/services" },
+    { label: "Internships", to: "/services" },
+    { label: "IT Solutions", to: "/services" },
+    { label: "Full Stack Development", to: "/services" },
   ],
   Company: [
     { label: "About", to: "/about" },
@@ -18,9 +18,9 @@ const FOOTER_LINKS = {
 };
 
 const SOCIAL_LINKS = [
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Github, href: "https://github.com", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/company/arukien-technologies/", label: "LinkedIn" },
+  { icon: Gmail, href: "arukien418@gmail.com", label: "Mail" },
+  { icon: Instagram, href: "https://www.instagram.com/arukien_technologies?igsh=NDRvYXR5andqdTgx", label: "Instagram" }
 ];
 
 export function Footer() {
@@ -65,15 +65,15 @@ export function Footer() {
             <div className="mt-6 space-y-1 text-sm font-body text-muted-foreground">
               <p className="flex items-center gap-2">
                 <span className="text-accent-bright">📍</span>
-                103 Abineer Street, Stones, SA 21500
+                Jyothy Boys Hostel, Tataguni, Kanakapura Off. Road, Bangalore 62
               </p>
               <p className="flex items-center gap-2">
                 <span className="text-accent-bright">📞</span>
-                +1 123 338 4730
+                8050211095
               </p>
               <p className="flex items-center gap-2">
                 <span className="text-accent-bright">✉️</span>
-                contact@arukientech.com
+                arukien418@gmail.com
               </p>
             </div>
           </div>
@@ -106,14 +106,14 @@ export function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs font-body text-muted-foreground">
           <p>© {year} Arukien Technologies. All rights reserved.</p>
           <p>
-            Built with love using{" "}
+            
             <a
               href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "")}`}
               target="_blank"
               rel="noreferrer"
               className="text-accent-bright hover:opacity-80 transition-smooth"
             >
-              caffeine.ai
+              
             </a>
           </p>
         </div>
