@@ -386,7 +386,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex gap-3">
                   <a
-                    href="https://maps.google.com/?q=Bangalore+Karnataka+India"
+                    href="https://maps.app.goo.gl/nTqHFjG7vTrryrQu7"
                     target="_blank"
                     rel="noopener noreferrer"
                     data-ocid="contact.directions_link"
