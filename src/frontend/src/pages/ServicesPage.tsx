@@ -139,9 +139,9 @@ const SERVICES: ServiceDetail[] = [
 ];
 
 const STATS = [
-  { value: "150+", label: "Projects Delivered" },
-  { value: "50+", label: "Clients Worldwide" },
-  { value: "8+", label: "Years Experience" },
+  { value: "25+", label: "Projects Delivered" },
+  { value: "40", label: "Clients Worldwide" },
+  { value: "2+", label: "Years Experience" },
 ];
 
 // ─── Sub-components ────────────────────────────────────────────────────────────
