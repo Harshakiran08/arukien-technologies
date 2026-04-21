@@ -1,6 +1,6 @@
 import { Separator } from "@/components/ui/separator";
 import { Link } from "@tanstack/react-router";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Linkedin, Mail, Instagram } from "lucide-react";
 
 const FOOTER_LINKS = {
   Solutions: [
@@ -18,18 +18,31 @@ const FOOTER_LINKS = {
 };
 
 const SOCIAL_LINKS = [
-  { icon: Linkedin, href: "https://www.linkedin.com/company/arukien-technologies/", label: "LinkedIn" },
-  { icon: Gmail, href: "arukien418@gmail.com", label: "Mail" },
-  { icon: Instagram, href: "https://www.instagram.com/arukien_technologies?igsh=NDRvYXR5andqdTgx", label: "Instagram" }
+  {
+    icon: Linkedin,
+    href: "https://www.linkedin.com/company/arukien-technologies/",
+    label: "LinkedIn",
+  },
+  {
+    icon: Mail,
+    href: "mailto:arukien418@gmail.com",
+    label: "Mail",
+  },
+  {
+    icon: Instagram,
+    href: "https://www.instagram.com/arukien_technologies?igsh=NDRvYXR5andqdTgx",
+    label: "Instagram",
+  },
 ];
 
 export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-muted/40 border-t border-border" data-ocid="footer">
+    <footer className="bg-muted/40 border-t border-border">
       <div className="container mx-auto px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+          
           {/* Brand */}
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center gap-2.5 mb-4 w-fit">
@@ -42,10 +55,13 @@ export function Footer() {
                 Arukien Technologies
               </span>
             </Link>
+
             <p className="font-body text-muted-foreground text-sm leading-relaxed max-w-xs">
               Building the Future of Enterprise Software. Scalable, AI-driven
               solutions for modern business innovation.
             </p>
+
+            {/* Social Links */}
             <div className="flex items-center gap-3 mt-6">
               {SOCIAL_LINKS.map(({ icon: Icon, href, label }) => (
                 <a
@@ -54,31 +70,31 @@ export function Footer() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label={label}
-                  className="w-9 h-9 rounded-lg bg-muted/50 border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-primary/40 hover:bg-primary/10 transition-smooth"
-                  data-ocid={`footer.social_link.${label.toLowerCase()}`}
+                  className="w-9 h-9 rounded-lg bg-muted/50 border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-primary/40 hover:bg-primary/10 transition"
                 >
                   <Icon size={16} />
                 </a>
               ))}
             </div>
 
+            {/* Contact Info */}
             <div className="mt-6 space-y-1 text-sm font-body text-muted-foreground">
               <p className="flex items-center gap-2">
-                <span className="text-accent-bright">📍</span>
+                <span>📍</span>
                 Jyothy Boys Hostel, Tataguni, Kanakapura Off. Road, Bangalore 62
               </p>
               <p className="flex items-center gap-2">
-                <span className="text-accent-bright">📞</span>
+                <span>📞</span>
                 8050211095
               </p>
               <p className="flex items-center gap-2">
-                <span className="text-accent-bright">✉️</span>
+                <span>✉️</span>
                 arukien418@gmail.com
               </p>
             </div>
           </div>
 
-          {/* Link columns */}
+          {/* Links */}
           {Object.entries(FOOTER_LINKS).map(([title, links]) => (
             <div key={title}>
               <h4 className="font-display font-semibold text-foreground text-sm tracking-wider uppercase mb-4">
@@ -89,8 +105,7 @@ export function Footer() {
                   <li key={link.label}>
                     <Link
                       to={link.to}
-                      className="font-body text-sm text-muted-foreground hover:text-foreground transition-smooth"
-                      data-ocid={`footer.link.${link.label.toLowerCase().replace(/\s/g, "_")}`}
+                      className="font-body text-sm text-muted-foreground hover:text-foreground transition"
                     >
                       {link.label}
                     </Link>
@@ -103,19 +118,18 @@ export function Footer() {
 
         <Separator className="my-8 bg-border/60" />
 
+        {/* Bottom */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs font-body text-muted-foreground">
-          <p>©2024 Arukien Technologies. All rights reserved.</p>
-          <p>
-            
-            <a
-              href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "")}`}
-              target="_blank"
-              rel="noreferrer"
-              className="text-accent-bright hover:opacity-80 transition-smooth"
-            >
-              
-            </a>
-          </p>
+          <p>©{year} Arukien Technologies. All rights reserved.</p>
+
+          <a
+            href="https://caffeine.ai"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:opacity-80 transition"
+          >
+            Powered by Caffeine AI
+          </a>
         </div>
       </div>
     </footer>
