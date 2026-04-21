@@ -1,0 +1,28 @@
+{
+  "overview": "A professional multi-page corporate website for Arukien Technologies — an IT services company. Features five pages (Home, About, Services, Portfolio, Contact) with deep blue and cyan design system, glassmorphism UI, scroll animations, and TanStack Router navigation.",
+  "features": [
+    "Multi-page routing with Home, About, Services, Portfolio, and Contact pages",
+    "Hero section with headline, subtext, and dual CTA buttons",
+    "Services overview with detailed cards for 5 service areas",
+    "Why Choose Us section with 4 key differentiators",
+    "Testimonials carousel with dummy client reviews",
+    "Team section with placeholder member cards",
+    "Portfolio grid with project images, descriptions, and tech tags",
+    "Contact form with validation and company info sidebar",
+    "Glassmorphism UI with deep blue (#0A2540) and cyan/teal accents",
+    "Scroll-reveal animations and hover effects",
+    "Fully responsive across mobile, tablet, and desktop",
+    "Sticky navbar with mobile hamburger menu"
+  ],
+  "category": "business",
+  "tags": [
+    "corporate",
+    "business",
+    "it-services",
+    "multi-page",
+    "glassmorphism",
+    "dark-theme",
+    "responsive"
+  ],
+  "last_updated": "2026-04-21T12:31:24.069Z"
+}
