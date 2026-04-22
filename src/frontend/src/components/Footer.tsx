@@ -30,17 +30,17 @@ const SOCIAL_LINKS = [
   },
   {
     icon: Instagram,
-    href: "https://www.instagram.com/arukien_technologies?igsh=NDRvYXR5andqdTgx",
+    href: "https://www.instagram.com/arukien_technologies",
     label: "Instagram",
   },
 ];
 
 export function Footer() {
-  const year = new Date().getFullYear();
-
   return (
     <footer className="bg-muted/40 border-t border-border">
       <div className="container mx-auto px-6 lg:px-8 py-14">
+        
+        {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           
           {/* Brand */}
@@ -51,12 +51,12 @@ export function Footer() {
                 alt="Arukien Technologies Logo"
                 className="h-10 w-auto object-contain"
               />
-              <span className="font-display font-bold text-base text-foreground tracking-wide">
+              <span className="font-bold text-base text-foreground tracking-wide">
                 Arukien Technologies
               </span>
             </Link>
 
-            <p className="font-body text-muted-foreground text-sm leading-relaxed max-w-xs">
+            <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               Building the Future of Enterprise Software. Scalable, AI-driven
               solutions for modern business innovation.
             </p>
@@ -78,7 +78,7 @@ export function Footer() {
             </div>
 
             {/* Contact Info */}
-            <div className="mt-6 space-y-1 text-sm font-body text-muted-foreground">
+            <div className="mt-6 space-y-1 text-sm text-muted-foreground">
               <p className="flex items-center gap-2">
                 <span>📍</span>
                 Arukien Technologies, Tataguni, Kanakapura Off. Road, Bangalore 62
@@ -97,7 +97,7 @@ export function Footer() {
           {/* Links */}
           {Object.entries(FOOTER_LINKS).map(([title, links]) => (
             <div key={title}>
-              <h4 className="font-display font-semibold text-foreground text-sm tracking-wider uppercase mb-4">
+              <h4 className="font-semibold text-foreground text-sm uppercase mb-4">
                 {title}
               </h4>
               <ul className="space-y-2">
@@ -105,7 +105,7 @@ export function Footer() {
                   <li key={link.label}>
                     <Link
                       to={link.to}
-                      className="font-body text-sm text-muted-foreground hover:text-foreground transition"
+                      className="text-sm text-muted-foreground hover:text-foreground transition"
                     >
                       {link.label}
                     </Link>
@@ -116,21 +116,14 @@ export function Footer() {
           ))}
         </div>
 
+        {/* Divider */}
         <Separator className="my-8 bg-border/60" />
 
-       <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-       <p>© 2024 Arukien Technologies. All rights reserved.</p>
-       </div>
-
-          <a
-            href="https://caffeine.ai"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:opacity-80 transition"
-          >
-            
-          </a>
+        {/* Bottom */}
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
+          <p>© 2024 Arukien Technologies. All rights reserved.</p>
         </div>
+
       </div>
     </footer>
   );
