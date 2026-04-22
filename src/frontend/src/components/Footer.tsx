@@ -118,9 +118,9 @@ export function Footer() {
 
         <Separator className="my-8 bg-border/60" />
 
-        {/* Bottom */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs font-body text-muted-foreground">
-          <p>©{year} Arukien Technologies. All rights reserved.</p>
+       <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
+       <p>© 2024 Arukien Technologies. All rights reserved.</p>
+       </div>
 
           <a
             href="https://caffeine.ai"
