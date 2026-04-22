@@ -321,7 +321,7 @@ function AboutPreviewSection() {
                 to your unique needs.
               </p>
               <p>
-                With over 8 years of experience and 150+ successful projects
+                With over 2 years of experience and 42+ successful projects
                 across industries, we are your trusted technology partner for
                 sustainable growth.
               </p>
