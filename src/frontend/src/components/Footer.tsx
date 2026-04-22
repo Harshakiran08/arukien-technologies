@@ -81,7 +81,7 @@ export function Footer() {
             <div className="mt-6 space-y-1 text-sm text-muted-foreground">
               <p className="flex items-center gap-2">
                 <span>📍</span>
-                Arukien Technologies, Tataguni, Kanakapura Off. Road, Bangalore 62
+                Arukien Technologies, Tataguni, Kanakapura Road, Bengaluru – 560082, Karnataka, India
               </p>
               <p className="flex items-center gap-2">
                 <span>📞</span>
