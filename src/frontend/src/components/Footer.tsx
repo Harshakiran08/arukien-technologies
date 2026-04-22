@@ -81,7 +81,7 @@ export function Footer() {
             <div className="mt-6 space-y-1 text-sm font-body text-muted-foreground">
               <p className="flex items-center gap-2">
                 <span>📍</span>
-                Jyothy Boys Hostel, Tataguni, Kanakapura Off. Road, Bangalore 62
+                Arukien Technologies, Tataguni, Kanakapura Off. Road, Bangalore 62
               </p>
               <p className="flex items-center gap-2">
                 <span>📞</span>
