@@ -138,7 +138,7 @@ export default function ContactPage() {
         {/* WhatsApp */}
         <RevealSection>
           <a
-            href="https://wa.me/8792727104"
+            href="https://wa.me/918050211095?text=Hi%20I%20need%20details"
             target="_blank"
             rel="noopener noreferrer"
           >
