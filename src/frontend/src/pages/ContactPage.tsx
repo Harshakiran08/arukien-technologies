@@ -47,7 +47,7 @@ const INFO_ITEMS = [
     icon: MapPin,
     label: "Location",
     value:
-      "Jyothy Boys Hostel, Tataguni, Off. Kanakapura Road, Bangalore 560062",
+      "Arukien Technologies, Tataguni, Off. Kanakapura Road, Bangalore 560062",
   },
   {
     icon: Mail,
