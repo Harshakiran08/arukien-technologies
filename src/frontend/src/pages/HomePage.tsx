@@ -88,9 +88,9 @@ const serviceIcons: Record<string, React.ElementType> = {
 };
 
 const stats = [
-  { value: "150+", label: "Projects Delivered" },
-  { value: "50+", label: "Happy Clients" },
-  { value: "8+", label: "Years Experience" },
+  { value: "42+", label: "Projects Delivered" },
+  { value: "30+", label: "Happy Clients" },
+  { value: "2+", label: "Years Experience" },
   { value: "99%", label: "Uptime SLA" },
 ];
 
