@@ -47,7 +47,7 @@ const INFO_ITEMS = [
     icon: MapPin,
     label: "Location",
     value:
-      "Arukien Technologies, Tataguni, Off. Kanakapura Road, Bangalore 560062",
+      "Arukien Technologies, Tataguni, Kanakapura Road, Bengaluru – 560082, Karnataka, India",
   },
   {
     icon: Mail,
